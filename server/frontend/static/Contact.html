@@ -1,0 +1,116 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+    }
+
+    nav a.active {
+      background-color: #007BFF;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-container img {
+      max-width: 40%;
+      margin-right: 2rem;
+      border-radius: 8px;
+    }
+
+    .contact-info {
+      flex: 1;
+    }
+
+    .contact-info p {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    .contact-info a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <header>
+    </header>
+    <div class="contact-container">
+      <img class="card-img-top" src="/static/contactus.png" alt="Card image">
+      <div class="contact-info">
+        <h1>Contact Us</h1>
+        <p><strong>Phone:</strong> +1-234-567-8901</p>
+        <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+        <p><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
+        <p><strong>Business Hours:</strong> Monday to Friday, 9:00 AM - 5:00 PM</p>
+      </div>
+    </div>
+  </body>
+  </html>
